@@ -1,6 +1,4 @@
-import { type ClassValue, clsx } from "clsx";
-import { twMerge } from "tailwind-merge";
+/* SPDX-FileCopyrightText: 2014-present Kriasoft */
+/* SPDX-License-Identifier: MIT */
 
-export function cn(...inputs: ClassValue[]) {
-  return twMerge(clsx(inputs));
-}
+export { cn } from "@repo/ui";
