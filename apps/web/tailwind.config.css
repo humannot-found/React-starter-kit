@@ -14,14 +14,10 @@
 @import "tailwindcss";
 
 /* Content paths for Tailwind to scan */
-@source "./lib/**/*.{js,ts,jsx,tsx}";
-@source "./routes/**/*.{js,ts,jsx,tsx}";
-@source "./components/**/*.{js,ts,jsx,tsx}";
-@source "./index.html";
-@source "./index.tsx";
+@source "./pages/**/*.{astro,js,ts,jsx,tsx}";
+@source "./layouts/**/*.{astro,js,ts,jsx,tsx}";
 @source "../../packages/ui/components/**/*.{ts,tsx}";
 @source "../../packages/ui/lib/**/*.{ts,tsx}";
-@source "../../packages/ui/hooks/**/*.{ts,tsx}";
 
 /* Custom dark mode variant */
 @custom-variant dark (&:is(.dark *));
